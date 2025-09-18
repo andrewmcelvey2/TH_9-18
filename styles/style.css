@@ -1,0 +1,53 @@
+header,
+nav,
+footer {
+    background-color: black;
+    /*Black background*/
+    color: white;
+    /*White Text*/
+    text-align: center;
+    /*Center alignment*/
+    width: 100%;
+    /*Stretches text to fit screen; enhanced*/
+
+}
+
+main {
+    background-color: #000000;
+    background-image: url("https://transparenttextures.com/patterns/binding-light.png");
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+    color: white;
+}
+
+.roundedImage {
+    width: 200px;
+    height: 200px;/*Width and Height make a square*/
+    border-radius: 50%;/*Rounds the squares corners*/
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.centerContent {
+    display: flex;
+    /*Enables flexbox*/
+    flex-direction: column;
+    /*stack sections vertically*/
+    align-items: center;
+    /*center items horizontally*/
+    justify-content: center;
+    /*Center items vertically*/
+    text-align: center;
+    /*centers text*/
+}
+
+.aboutBox {
+    border: 2px solid white;
+    padding: 20px;
+    margin: 20px auto;
+    width: 70%;
+    text-align: left;
+    background: #111;
+    color: white;
+    border-radius: 8px;
+    
+}
